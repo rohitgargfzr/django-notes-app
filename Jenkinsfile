@@ -9,6 +9,11 @@ pipeline{
             clone("https://github.com/LondheShubham153/django-notes-app.git","main")
             }
         }
+        stage("Test){
+              steps{
+                  echo "Hello Test!"
+              }
+        }
         stage("Code Build"){
             steps{
             dockerbuild("notes-app","latest")
