@@ -30,4 +30,3 @@ Install Nginx reverse proxy to make this application available
 `sudo apt install nginx`
 
 ## Testing github webhooks
-## Testing hook again
