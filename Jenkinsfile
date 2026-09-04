@@ -1,7 +1,13 @@
+@Library("shared") _
 pipeline{
     agent any
     
     stages{
+        stage("Hello"){
+            steps{
+                Hello()
+            }
+        }
         stage("Code clone"){
             steps{
                 sh "whoami"
