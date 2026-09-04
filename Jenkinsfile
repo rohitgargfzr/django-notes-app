@@ -9,7 +9,7 @@ pipeline{
             clone("https://github.com/rohitgargfzr/django-notes-app.git","main")
             }
         }
-        stage("Test){
+        stage("Test"){
               steps{
                   echo "Hello Test!"
               }
